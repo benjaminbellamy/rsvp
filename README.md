@@ -13,6 +13,8 @@ Installing rsvp
 ---------------
 
 You need to know how to create an Apache VHOST. That's about it.
+You need apache to be able to connect to varnishadm, so copy /etc/varnish/secret to /etc/varnish/secret.www-data and chown www-data:www-data.
+
 ```
 <VirtualHost *:81>
   ServerAdmin admin@localhost
