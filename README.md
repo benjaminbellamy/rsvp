@@ -2,6 +2,18 @@ rsvp
 ====
 
 Really Simple Varnish Panel
+This WebApp alowws you to monitor your Varnish server.
+
+Features
+--------
+* Display real-time varnishstat
+* Display real-time varnishlog
+
+Installing rsvp
+---------------
+
+You need to know how to create an Apache VHOST.
+
 
 License
 -------
