@@ -12,7 +12,45 @@ Features
 Installing rsvp
 ---------------
 
-You need to know how to create an Apache VHOST.
+You need to know how to create an Apache VHOST. That's about it.
+```
+<VirtualHost *:81>
+  ServerAdmin admin@localhost
+	DocumentRoot /var/rsvp/www
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+		AuthType Basic
+		AuthName "Really Simple Varnish Panel"
+		AuthType Basic
+		AuthUserFile /var/rsvp/.htpasswd
+		Require valid-user
+	</Directory>
+	<Directory /var/rsvp/www>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride None
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ScriptAlias /cgi-bin/ /var/rsvp/cgi-bin/
+	<Directory "/usr/lib/cgi-bin">
+		AllowOverride None
+		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+	ErrorLog /var/log/apache2/rsvp-error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog /var/log/apache2/rsvp-access.log combined
+
+</VirtualHost>
+```
 
 
 License
