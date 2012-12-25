@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Content-type: text/plain
+echo
+varnishlog -r /var/rsvp/www/logs/$REMOTE_ADDR.log

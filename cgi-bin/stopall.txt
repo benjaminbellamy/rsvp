@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Content-type: text/plain
+echo
+kill -9 $(ps aux | grep varnishlog | grep -v grep | awk '{print $2}')
+echo All processes killed.

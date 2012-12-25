@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Content-type: text/plain
+echo
+cmd="varnishlog -D -c -m ReqStart:$REMOTE_ADDR -w /var/rsvp/www/logs/$REMOTE_ADDR.log"
+kill -9 $(ps aux | grep "$cmd" | grep -v grep | awk '{print $2}')
+echo Process killed.
