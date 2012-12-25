@@ -2,7 +2,7 @@ rsvp
 ====
 
 Really Simple Varnish Panel
-This WebApp alowws you to monitor your Varnish server.
+This WebApp allows you to monitor your Varnish server.
 
 Features
 --------
