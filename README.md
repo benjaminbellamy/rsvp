@@ -34,7 +34,7 @@ You need to know how to create an Apache VHOST. That's about it.
 	</Directory>
 
 	ScriptAlias /cgi-bin/ /var/rsvp/cgi-bin/
-	<Directory "/usr/lib/cgi-bin">
+	<Directory "/var/rsvp/cgi-bin">
 		AllowOverride None
 		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
 		Order allow,deny
