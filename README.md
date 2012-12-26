@@ -21,7 +21,7 @@ Installing rsvp
 * Obviously, you need a **Vanish cache server** up and running.
 * You need **Apache** running on the same server, different ip port, let's say 81, but anyone will do.
 * You need Apache to be able to connect to **varnishadm**, so copy */etc/varnish/secret* to */etc/varnish/secret.www-data* and chown it to *www-data:www-data*.
-* I strongly suggest that you protect your server with some **authentification** (*.htpasswd* with Basic AuthType should be enough).
+* I strongly suggest that you protect your server with some **authentification** (.htpasswd with Basic AuthType should be enough).
 * **Copy** rsvp directory to */var/*, *www-data* should have **write** access to */var/rsvp/www/logs/* directory.
 * You need also to know how to create an Apache **VHOST**. That's about it.
 
