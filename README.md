@@ -3,7 +3,10 @@ rsvp
 
 Really Simple Varnish Panel
 This WebApp allows you to monitor your Varnish server.
+
 **Do not use on production server. Use for testing purposes only**
+
+![Really Simple Varnish Panel](http://techwatch.keeward.com/wp-content/uploads/2012/12/DSC03535-580x386.jpg)
 
 Features
 --------
