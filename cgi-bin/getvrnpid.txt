@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Content-type: text/plain
+echo
+ps aux | grep varnishd | grep -v grep | awk '{print $2}'
