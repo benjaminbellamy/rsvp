@@ -3,7 +3,7 @@ rsvp
 
 * *“Really Simple Varnish Panel”*
 * This WebApp allows you to monitor your Varnish server.
-* This app uses cool new stuff such as [jQuery](http://jquery.com/) and [TwitterBootstrap](http://twitter.github.com/bootstrap/) but also very ugly old ones such as [CGI](http://httpd.apache.org/docs/2.2/howto/cgi.html).
+* This app uses cool new stuff such as [jQuery](http://jquery.com/) and [TwitterBootstrap](http://twitter.github.com/bootstrap/) but also very ugly old ones such as [CGI](http://httpd.apache.org/docs/2.2/howto/cgi.html). Why? Because it was the easiest way!
 * **Do not use on production server. Use for testing purpose only**
 
 ![Really Simple Varnish Panel](http://techwatch.keeward.com/wp-content/uploads/2012/12/DSC03535-580x386.jpg)
