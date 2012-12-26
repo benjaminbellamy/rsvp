@@ -1,6 +1,6 @@
 # don't commit private files:
 .htaccess
-www/logs/*
+www/logs/*.log
 # OS generated files #
 .DS_Store
 .DS_Store?
