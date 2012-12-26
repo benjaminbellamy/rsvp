@@ -13,9 +13,10 @@ Installing rsvp
 ---------------
 
 
-* Obviously, you need a Vanish server up and running
-* You need apache running on the same server, different ip port, let's say 81, but anyone will do
+* Obviously, you need a Vanish server up and running.
+* You need apache running on the same server, different ip port, let's say 81, but anyone will do.
 * You need apache to be able to connect to varnishadm, so copy /etc/varnish/secret to /etc/varnish/secret.www-data and chown www-data:www-data.
+* I strongly suggest that you protect your server with some authentification (.htpasswd with Basic AuthType should be enough).
 * You need also to know how to create an Apache VHOST. That's about it.
 
 ```
