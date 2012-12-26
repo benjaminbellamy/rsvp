@@ -2,4 +2,5 @@
 echo Content-type: text/plain
 echo
 varnishadm -S /etc/varnish/secret.www-data -T 127.0.0.1:6082 stop
+sleep 1
 varnishadm -S /etc/varnish/secret.www-data -T 127.0.0.1:6082 start

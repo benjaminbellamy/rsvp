@@ -1,4 +1,4 @@
 #!/bin/sh
-echo Content-type: text/plain
+echo Content-type: application/json
 echo
 varnishstat -j -1
