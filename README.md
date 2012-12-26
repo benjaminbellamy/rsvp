@@ -12,6 +12,8 @@ Features
 --------
 * Display real-time **varnishstat** with *HIT/(HIT+MISS)* ratio
 * Display real-time **varnishlog**
+* **Ban** every URL from cache
+* **Restart** Varnish cache
 
 Installing rsvp
 ---------------
