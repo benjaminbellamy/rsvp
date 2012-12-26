@@ -11,7 +11,7 @@ This WebApp allows you to monitor your Varnish server.
 
 Features
 --------
-* Display real-time **varnishstat** with *HIT/(HIT+MISS) ratio*
+* Display real-time **varnishstat** with *HIT/(HIT+MISS)* ratio
 * Display real-time **varnishlog**
 
 Installing rsvp
