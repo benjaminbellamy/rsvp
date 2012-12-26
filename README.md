@@ -1,7 +1,7 @@
 rsvp
 ====
 
-*Really Simple Varnish Panel*
+*“Really Simple Varnish Panel”*
 
 This WebApp allows you to monitor your Varnish server.
 
