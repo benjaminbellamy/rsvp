@@ -1,5 +1,5 @@
 # don't commit private files:
-.htaccess
+.htpasswd
 www/logs/*.log
 # OS generated files #
 .DS_Store
