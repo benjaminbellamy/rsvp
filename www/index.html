@@ -137,7 +137,7 @@
     <h4 class="alert-heading">Are you sure?!</h4>
     <p>Baning everything from Varnish cache will neither free memory nor have effect on statistics (except for <em>n_ban</em>).<br /><strong>All cached data will be “erased”.</strong> Forever.</p>
     <p>
-      <a class="btn btn-inverse btn-block" href="javascript:banCache();$('#confirm-ban').hide();">Yes I am sure and I want to ban everything now.</a>
+      <a class="btn btn-inverse btn-block" href="javascript:void(0)" onclick="javascript:banCache();$('#confirm-ban').hide();">Yes I am sure and I want to ban everything now.</a>
     </p>
   </div>  
   <button class=
@@ -148,7 +148,7 @@
     <h4 class="alert-heading">Are you sure?!</h4>
     <p>Rebooting Varnish will stop and restart it.<br /><strong>All cached data will be erased.</strong> Forever. And there is no turning back.</p>
     <p>
-      <a class="btn btn-inverse btn-block" href="javascript:rebootVarnish();$('#confirm-reboot').hide();">Yes I am sure and I want to reboot now.</a>
+      <a class="btn btn-inverse btn-block" href="javascript:void(0)" onclick="rebootVarnish();$('#confirm-reboot').hide();">Yes I am sure and I want to reboot now.</a>
     </p>
   </div>
 </div>
